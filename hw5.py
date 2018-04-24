@@ -39,7 +39,7 @@ def main(filename):
     # a,12345
     # I,23456
     # ...
-    with open('word_count.csv', 'w') as csv_file:
+    with open("word_count.csv", "w", newline='') as csv_file:
         # create a csv writer from a file object (or descriptor)
         writer = csv.writer(csv_file)
         # write table head
